@@ -1,0 +1,101 @@
+baseURL: "https://Rim-Adenane.github.io/" 
+title: Rim Adenane, Ph.D.
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Books
+          url: books/
+          weight: 5 
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Courses
+          url: courses/
+          weight: 3
+        - name: Data
+          url: data/
+          weight: 4 
+        - name: Blog
+          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          weight: 6
+
+params:
+    description: "This website hosts Rim Adenane's research papers, books, course materials, data, curriculum vitae, and contact information."
+    author: Rim Adenane
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Rim Adenane, Ph.D.
+          subtitle: |
+            Passionate and committed Doctor of Applied Mathematics with a strong academic foundation in the application of mathematics to fields such as actuarial science, risk theory, epidemiology, oncology, chemical reaction network theory, and statistics. My current research focuses on mathematical modeling in epidemiology using ordinary differential equations (ODEs) and exploring their deep connections with reaction kinetic network theory. A key aspect of my work involves the development and refinement of a dedicated numerical package, created in collaboration with my research team, aimed at enhancing the use of computer algebra systems for the analysis and simulation of complex dynamical systems.
+            <br>
+            <br>
+            **I am actively seeking a Grade A Maître de Conférences (Lectureship) position in Mathematics.**
+            <br>
+            <br>
+            CV available upon request.
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+
+    socialIcons:
+        - name: Email
+          url: mailto:rim.adenane@uit.ac.ma
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=v14rwnwAAAAJ&hl=fr&oi=ao
+        - name: GitHub
+          url: https://github.com/Rim-Adenane
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Rim-Adenane
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Rim Adenane"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
